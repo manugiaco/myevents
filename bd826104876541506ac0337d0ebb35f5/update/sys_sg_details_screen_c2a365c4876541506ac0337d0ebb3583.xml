@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_details_screen">
+    <sys_sg_details_screen action="INSERT_OR_UPDATE">
+        <available_offline>false</available_offline>
+        <description/>
+        <dynamic_prefetch_count/>
+        <empty_state/>
+        <fetch_type>not_required</fetch_type>
+        <filter/>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="icon-Star">caa365c4876541506ac0337d0ebb357f</icon>
+        <name>Details</name>
+        <roles_override/>
+        <sys_class_name>sys_sg_details_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-03 16:32:40</sys_created_on>
+        <sys_id>c2a365c4876541506ac0337d0ebb3583</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Details</sys_name>
+        <sys_package display_value="MyEvents" source="x_snc_myevents">bd826104876541506ac0337d0ebb35f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyEvents">bd826104876541506ac0337d0ebb35f5</sys_scope>
+        <sys_update_name>sys_sg_details_screen_c2a365c4876541506ac0337d0ebb3583</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-03 16:32:40</sys_updated_on>
+        <table>x_snc_myevents_evento</table>
+    </sys_sg_details_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=c2a365c4876541506ac0337d0ebb3583"/>
+</record_update>

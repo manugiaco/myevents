@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Luogo" max_length="40" name="x_snc_myevents_luogo" sizeclass="1" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Città" max_length="40" name="citt" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Indirizzo" max_length="40" name="indirizzo" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Nome" max_length="40" name="nome" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Paese" max_length="40" name="paese" type="string"/>
+    </element>
+</database>

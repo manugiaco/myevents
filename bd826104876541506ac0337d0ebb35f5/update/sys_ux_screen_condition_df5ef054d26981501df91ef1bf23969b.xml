@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_condition">
+    <sys_ux_screen_condition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <screen display_value="Agent Assist">db5ef054976981508acc4d9562c9929b</screen>
+        <screen_condition/>
+        <script><![CDATA[(function canShowAA(params) {
+    return new x_snc_myevents.workspaceStarterExpUtils().checkContextualConfig(params.table);
+})(inputProperties);]]></script>
+        <scripted_condition>true</scripted_condition>
+        <sys_class_name>sys_ux_screen_condition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-04 08:28:13</sys_created_on>
+        <sys_id>df5ef054d26981501df91ef1bf23969b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MyEvents" source="x_snc_myevents">bd826104876541506ac0337d0ebb35f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyEvents">bd826104876541506ac0337d0ebb35f5</sys_scope>
+        <sys_update_name>sys_ux_screen_condition_df5ef054d26981501df91ef1bf23969b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-04 08:28:13</sys_updated_on>
+    </sys_ux_screen_condition>
+</record_update>

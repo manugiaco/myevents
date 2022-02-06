@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_panel>db5ef054036981507790ca0dba5dd598</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page/>
+        <path>myevents</path>
+        <root_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-04 08:28:13</sys_created_on>
+        <sys_id>9b5ef054e6698150b543650ca8c97c9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MyEvents</sys_name>
+        <sys_package display_value="MyEvents" source="x_snc_myevents">bd826104876541506ac0337d0ebb35f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyEvents">bd826104876541506ac0337d0ebb35f5</sys_scope>
+        <sys_update_name>sys_ux_page_registry_9b5ef054e6698150b543650ca8c97c9a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-04 08:28:13</sys_updated_on>
+        <title>MyEvents</title>
+    </sys_ux_page_registry>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Evento" max_length="40" name="x_snc_myevents_evento" sizeclass="1" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Data e ora" max_length="40" name="data_e_ora" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Evento" max_length="40" name="evento" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Host" max_length="32" name="host" reference="x_snc_myevents_oratore" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Luogo" max_length="32" name="luogo" reference="x_snc_myevents_luogo" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" default="aperto" label="Stato" max_length="40" name="stato" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Aperto" sequence="10" value="aperto"/>
+                <element inactive_on_update="false" label="Annullato" sequence="20" value="annullato"/>
+                <element inactive_on_update="false" label="Chiuso" sequence="30" value="chiuso"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="evento_online" label="Tipologia" max_length="40" name="tipologia" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Evento online" sequence="10" value="evento_online"/>
+                <element inactive_on_update="false" label="Evento in presenza" sequence="20" value="evento_in_presenza"/>
+            </choice>
+        </element>
+    </element>
+</database>

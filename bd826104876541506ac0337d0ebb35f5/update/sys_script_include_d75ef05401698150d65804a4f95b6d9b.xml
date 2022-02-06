@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_myevents.workspaceStarterExpUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>workspaceStarterExpUtils</name>
+        <script><![CDATA[var workspaceStarterExpUtils = Class.create();
+workspaceStarterExpUtils.prototype = {
+    initialize: function() {},
+
+    checkContextualConfig: function(tableName) {
+
+        //To check Agent assist is configured for current table on workspace
+
+        var gr = new GlideRecord('cxs_table_config');
+        gr.addQuery('table', '=', tableName);
+        gr.addQuery('ui_type', '=', 'workspace');
+        gr.query();
+        if (gr.next()) {
+            return true;
+        } else {
+            return false;
+        }
+    },
+    type: 'workspaceStarterExpUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-04 08:28:13</sys_created_on>
+        <sys_id>d75ef05401698150d65804a4f95b6d9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>workspaceStarterExpUtils</sys_name>
+        <sys_package display_value="MyEvents" source="x_snc_myevents">bd826104876541506ac0337d0ebb35f5</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="MyEvents">bd826104876541506ac0337d0ebb35f5</sys_scope>
+        <sys_update_name>sys_script_include_d75ef05401698150d65804a4f95b6d9b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-04 08:28:13</sys_updated_on>
+    </sys_script_include>
+</record_update>

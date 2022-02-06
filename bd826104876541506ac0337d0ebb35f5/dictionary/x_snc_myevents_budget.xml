@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Budget" max_length="40" name="x_snc_myevents_budget" sizeclass="7" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Actual" max_length="40" name="actual" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Estimated" max_length="40" name="estimated" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Event" max_length="40" name="event" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Item" max_length="42" name="item" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Notes" max_length="106" name="notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Quantity" max_length="40" name="quantity" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Total budget" max_length="40" name="total_budget" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Total cost" max_length="40" name="total_cost" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Under budget" max_length="40" name="under_budget" type="string"/>
+    </element>
+</database>
